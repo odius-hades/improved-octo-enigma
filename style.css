@@ -1,0 +1,227 @@
+/* COLOR SCHEME */
+    
+/*
+    lightshades:#f2f0f3 (athens grey);
+    lightaccent:#a7949d (dusty grey);
+    mainbrand:#5ca2df (cornflower blue);
+    darkaccent:#827571 (americano);
+    darkshades:#258bcb (curious blue);
+*/
+
+/* FONTS */
+
+/*
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+/* GENERAL STYLES */
+
+body{
+    background:#f2f0f3;
+    color:#258bcb;
+    font-family:'Open Sans', sans-serif;
+    margin:0;
+}
+
+h1{
+    font-family:'Ubuntu', sans-serif;
+    font-size:32pt;
+    margin:0;
+}
+
+h2{
+    font-family:'Ubuntu', sans-serif;
+}
+
+h3{
+    font-family:'Open Sans', sans-serif;
+}
+
+a{
+    color: #71787e;
+    text-decoration: none;
+    transition:0.2s;
+}
+
+a:hover{
+    color:#258bcb;
+    transition:0.4s;
+    text-decoration: underline;
+}
+
+li{
+    list-style:none;
+}
+
+/* NAVIGATION */
+
+nav {
+    background:#5ca2df;
+    color:#f2f0f3;
+    margin:0;
+    padding:3pt 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+#logo{
+    padding-left:10vw;
+}
+
+.links{
+    display:flex;
+    font-weight:bold;
+}
+
+.links a{
+    color:#f2f0f3;
+}
+
+.links ul{
+    display:flex;
+    padding-right:10vw;
+    align-items:center;
+}
+
+.links ul li{
+    padding:0 20pt;
+}
+
+/* SECTION */
+
+section{
+    margin:0 40pt;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cardsect{
+    width:90vw;
+    display:flex;
+    flex-direction: column;
+}
+
+.card-odd,
+.card-even{
+    color:#827571;
+    background-color: #fff;
+    box-shadow: 4px 4px 8px rgba(130,117,113,0.1);
+    border-radius:4px;
+    padding:20px;
+    margin:10px;
+}
+
+.card-odd{
+    text-align:justify;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-even{
+    text-align:justify;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-odd p,
+.card-even p{
+    margin:30px;
+}
+
+.fa-home,
+.fa-book,
+.fa-tools,
+.fa-users{
+    font-size:40pt;
+    align-self:center;
+    margin:20pt;
+}
+
+/* MAIN */
+
+main{
+    background:#fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#teamcont{
+    margin:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card{
+    margin:10px;
+    margin:10px;
+    width:200px;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+}
+
+.card img{
+    height:300px;
+    overflow-x: hidden;
+}
+
+/* FOOTER */
+
+footer{
+    background:#258bcb;
+    color:#f2f0f3;
+    padding:40px;
+    display: flex;
+    font-weight:bold;
+}
+
+#footer-left{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#icons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-envelope,
+.fa-facebook{
+    font-size:22pt;
+    margin-left:30px;
+}
+
+#footer-right{
+    display: flex;
+    flex:2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#footer-right p{
+    text-align:right;
+}
+
+/* DEV */
+
+#dev{
+    text-align:center;
+    color:#827571;
+    font-size:8pt;
+    margin:10px;
+}
